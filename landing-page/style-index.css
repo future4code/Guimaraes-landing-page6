@@ -24,7 +24,7 @@ header{
 img{
     width: 280px;
     height: 200px;
-   margin: 10px;
+    margin: 10px;
 }
 img:hover{
     transform: scale(1.2);
@@ -34,13 +34,23 @@ img:hover{
     background-color: #dd2dd0;
     color: cyan;
     text-align: center;
+    width: 100vh;
 }
 .container-secao1 h3{
     background-color: #dd2dd0;
     color: cyan;
     width: fit-content;
 }
-    
+#moradia-compartilhada h2{
+    margin-left: 300px
+}
+#kit-pronta h2{
+    margin-left: 300px
+}
+
+.kits-personalizadas h2{
+    margin-left: 300px
+}
 
 /* estilo MAIN*/
 
