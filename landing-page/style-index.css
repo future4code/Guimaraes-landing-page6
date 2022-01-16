@@ -4,7 +4,7 @@
 }
  
 body{
-    background: linear-gradient(90deg, rgba(4,14,87,0.8407738095238095) 23%, rgba(1,24,69,1) 64%);
+    background: #051826;
     color:whitesmoke;
     width: 1280px;
     height: 1024px;
@@ -14,31 +14,30 @@ body{
 /* estilo HEADER*/
 
 header{
-    background: linear-gradient(90deg, rgba(46,232,224,0.8407738095238095) 0%, rgba(20,1,69,1) 64%);
+    background: tomato;
     height: 50px;
 }
 
 /* estilo HEADER*/
 
 /* estilo MAIN*/   
-img{
+img:hover{
+    transform: scale(1.2);
+}
+.secao1 img{
     width: 280px;
     height: 200px;
     margin: 10px;
 }
-img:hover{
-    transform: scale(1.2);
-}
-
 .secao1 h2{
-    background-color: #dd2dd0;
-    color: cyan;
+    background-color: darkgray;
+    color: #19fcf6;
     text-align: center;
     width: 100vh;
 }
 .container-secao1 h3{
-    background-color: #dd2dd0;
-    color: cyan;
+    background-color: darkgray;
+    color: #19fcf6;
     width: fit-content;
 }
 #moradia-compartilhada h2{
@@ -56,7 +55,45 @@ img:hover{
 
 /* estilo FOOTER*/
 footer{
-    background: linear-gradient(90deg, rgba(46,232,224,0.8407738095238095) 0%, rgba(20,1,69,1) 64%);
-    height: 50px;
+    background: #051826;
+    height: 200px;
+    display: flex;
+}
+
+footer img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.formulario-de-contato{
+    caret-color: #ff0043;
+    color: #19fcf6;
+    margin-left: 150px;
+    border: solid 2px white;
+    font-family: monospace;
+}
+.formulario-de-contato .nome{
+    margin-left: 21px;
+}
+.formulario-de-contato .email{
+    margin-left: 7px;
+}
+.redes-sociais{
+    display: flex;
+    background-color: #19fcf6;
+}
+.redes-sociais h3{
+    padding-left: 10px;
+}
+.assunto{
+    height:70px;
+    width: 253px
+}
+
+input{
+    caret-color: #ff0043;
+    width: 196px
+    
 }
 /* estilo FOOTER*/
