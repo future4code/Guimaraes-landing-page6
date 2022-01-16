@@ -5,12 +5,16 @@
  
 body{
     background: #051826;
-    color:whitesmoke;
+    color:darkgray;
     width: 1280px;
     height: 1024px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
  
+img:hover{
+    transform: scale(1.2);
+    padding-left: 12px;
+}
 /* estilo HEADER*/
 
 header{
@@ -21,22 +25,18 @@ header{
 /* estilo HEADER*/
 
 /* estilo MAIN*/   
-img:hover{
-    transform: scale(1.2);
-}
+
 .secao1 img{
     width: 280px;
     height: 200px;
     margin: 10px;
 }
 .secao1 h2{
-    background-color: darkgray;
     color: #19fcf6;
     text-align: center;
     width: 100vh;
 }
 .container-secao1 h3{
-    background-color: darkgray;
     color: #19fcf6;
     width: fit-content;
 }
@@ -56,8 +56,9 @@ img:hover{
 /* estilo FOOTER*/
 footer{
     background: #051826;
-    height: 200px;
+    height: 300px;
     display: flex;
+    width: 100%;
 }
 
 footer img{
@@ -82,12 +83,17 @@ footer img{
 .redes-sociais{
     display: flex;
     background-color: #19fcf6;
+    
 }
 .redes-sociais h3{
     padding-left: 10px;
+    color: #051826;
+}
+.redes-sociais > a > img{
+    padding-top: 50px;
 }
 .assunto{
-    height:70px;
+    height:170px;
     width: 253px
 }
 
