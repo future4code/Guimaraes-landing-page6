@@ -1,7 +1,4 @@
 # landing-page-template
-<h1 align="center">
-    (https://user-images.githubusercontent.com/89948060/150617074-4e2292a3-2a97-43bb-b474-7953168da9ab.png)
-</h1>
 <h4 align="center"> 
 	 Landing-Page F4LIFE ....em construção... 
 </h4>
