@@ -7,14 +7,13 @@
 body{
     background: #051826;
     color:darkgray;
-    width: 1280px;
-    height: 1024px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
  
 img:hover{
     transform: scale(1.2);
-    padding-left: 12px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 /* estilo HEADER*/
 
@@ -109,6 +108,9 @@ img:hover{
     margin: 0; /* Remove margins */
     text-align: center;
   }
+.no-bullets > li{
+    padding-top: 10px;
+}
 
 .headings{
     font-family: Georgia;
@@ -149,21 +151,30 @@ img:hover{
     text-align: center;
     width: 100vh;
 }
+.container-secao1 h1{
+    padding-bottom: 20px;
+    
+}
 .container-secao1 h3{
     color: #19fcf6;
     width: fit-content;
 }
 #moradia-compartilhada h2{
-    margin-left: 300px
+    margin-left: 300px;
+    padding-top: 20px;
 }
 #kit-pronta h2{
-    margin-left: 300px
+    margin-left: 300px;
+    padding-top: 20px;
 }
 
 .kits-personalizadas h2{
-    margin-left: 300px
+    margin-left: 300px;
+    padding-top: 20px;
 }
-
+.kits-personalizadas h3{
+    padding-top: 10px;
+}
 /* CONTATO */
 #contact{
     display: flex;
@@ -217,15 +228,16 @@ img:hover{
 /* estilo FOOTER*/
 footer{
     background: #051826;
-    height: 300px;
+    height: 100px;
     display: flex;
     width: 100%;
 }
 
 footer img{
-    width: 100px;
-    height: 100px;
-    padding: 10px;
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 5px;
 }
 
 .redes-sociais{
@@ -237,9 +249,7 @@ footer img{
     padding-left: 10px;
     color: #051826;
 }
-.redes-sociais > a > img{
-    padding-top: 50px;
-}
+
 .assunto{
     height:170px;
     width: 253px
