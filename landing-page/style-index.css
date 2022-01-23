@@ -250,4 +250,59 @@ input{
     width: 196px
     
 }
+
+.Nosso-time{
+
+    padding-left: 50px;
+    display: flex;
+    
+   }
+   
+   .Nosso-time h3{
+    
+       padding-right: 500px;
+       color: white;
+       text-align: center;
+       font-style: italic
+   
+   }
+   
+   .Nosso-time p{
+   
+       color: white;
+       padding-left: 10px;
+       font-style: italic
+      
+   
+   }
+
+   .Trabalhe-conosco p{
+   
+   
+    padding-right: 100px; 
+    color: turquoise;
+    text-align: right;
+    font-style: italic;
+  
+    
+   
+ }
+ 
+ .Trabalhe-conosco h1{
+ 
+     color: white;
+     text-align: right;
+     bottom: 100px;
+     margin: auto;
+     padding-right: 100px;
+     font-style: italic;
+     
+ }
+ 
+ .Trabalhe-conosco img{
+ 
+     
+     padding-left: 800px;
+ 
+ }
 /* estilo FOOTER*/
