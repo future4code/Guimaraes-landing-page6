@@ -5,8 +5,8 @@
 }
  
 body{
-    background: #051826;
-    color:darkgray;
+    background: #132235;
+    color:white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
  
@@ -49,7 +49,7 @@ img:hover{
 
 .navbar ul li a{
     text-decoration: none;
-    color: white;
+    color: #6ddad3;
     padding: 8px 25px;
     transition: all .5s ease
 }
@@ -67,7 +67,7 @@ img:hover{
 #home {
     display: flex;
     flex-direction: column;
-    /* background-color: rgba(0, 0, 0, 0.5); */
+    
     height: 500px;
     justify-content: center;
     align-items: center;
@@ -147,7 +147,7 @@ img:hover{
     margin: 10px;
 }
 .secao1 h2{
-    color: #19fcf6;
+    color: #6ddad3;
     text-align: center;
     width: 100vh;
 }
@@ -180,8 +180,8 @@ img:hover{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    background-color: rgba(0, 0, 0, 0.9);
-    color: white;
+    background-color: #132235;
+    color: #6ddad3;
     padding: 20px;
 }
 
@@ -227,7 +227,7 @@ img:hover{
 
 /* estilo FOOTER*/
 footer{
-    background: #051826;
+    background: #132235;
     height: 100px;
     display: flex;
     width: 100%;
@@ -236,19 +236,21 @@ footer{
 footer img{
     width: 70px;
     height: 70px;
-    margin-left: 20px;
-    margin-top: 5px;
 }
 
 .redes-sociais{
-    display: flex;
-    background-color: #19fcf6;
-    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+  
 }
 .redes-sociais h3{
     padding-left: 10px;
     color: #051826;
 }
+
+
 
 .assunto{
     height:170px;
