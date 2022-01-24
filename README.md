@@ -7,4 +7,4 @@
 
 ## 💻 Sobre o projeto
 
-A landing-page F4LIFE é o primeiro projeto em grupo da turma Guimarães 2021 da escola de tecnologia Labenu, do curso de Desenvolvedor Web, pode ser acessado clicando ou utilizando diretamente o link https://busy-carpenter.surge.sh em seu navegador.  O projeto foi criado por 3 alunos sendo eles Matheus Bezerra Evaristo, Victor Hugo Lanna Santos, Crhistian Felipe da Silva, usando tecnologia html, css. 
+A landing-page F4LIFE é o primeiro projeto em grupo da turma Guimarães 2021 da escola de tecnologia Labenu, do curso de Desenvolvedor Web, pode ser acessado clicando ou utilizando diretamente o link http://greedy-bucket.surge.sh/ em seu navegador.  O projeto foi criado por 3 alunos sendo eles Matheus Bezerra Evaristo, Victor Hugo Lanna Santos, Crhistian Felipe da Silva, usando tecnologia html, css. 
