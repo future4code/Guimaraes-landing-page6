@@ -5,8 +5,8 @@
 }
  
 body{
-    background: #051826;
-    color:darkgray;
+    background: #132235;
+    color:white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
@@ -48,7 +48,7 @@ body{
 
 .navbar ul li a{
     text-decoration: none;
-    color: white;
+    color: #6ddad3;
     padding: 8px 25px;
     transition: all .5s ease
 }
@@ -63,6 +63,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
 }
 
 .homediv p {
@@ -93,6 +94,10 @@ body{
     color: white;
     outline: none;
     transition: .6s ease;
+}
+
+.titulo {
+    color: #6ddad3;
 }
 
 .btn:hover{
@@ -151,8 +156,8 @@ body{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    background-color: rgba(0, 0, 0, 0.9);
-    color: white;
+    background-color: #132235;
+    color: #6ddad3;
     padding: 20px;
 }
 
@@ -198,22 +203,29 @@ body{
 
 /* estilo FOOTER*/
 footer{
-    background: #051826;
+    background: #132235;
     height: 100px;
     display: flex;
     width: 100%;
 }
-.redes-sociais{
-    display: flex;
-    background-color: #19fcf6;
+
+footer img{
+    width: 70px;
+    height: 70px;
 }
-.redes-sociais img{
-    width: 150px;
-}
+
+/* .redes-sociais{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+  
+} */
 .redes-sociais h3{
     padding-left: 10px;
     color: #051826;
 }
+
 
 .assunto{
     height:170px;
@@ -226,10 +238,17 @@ input{
     
 }
 
-.Nosso-time{
-    padding-left: 50px;
-    display: flex;
+#nosso-time{
+    /* padding-left: 50px; */
+    /* display: flex; */
 }
+
+.imagens {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+
 .Nosso-time h3{
     
        padding-right: 500px;
@@ -245,30 +264,37 @@ input{
        font-style: italic
        
    }
-
-   #Nosso-time img{
-       width: 100px;
+   #nosso-time h2 {
+       padding-left: 135px;
+       padding-bottom: 25px;
    }
-   #Nosso-time img:hover{
+
+   #nosso-time img{
+       width: 100px;
+       height: 100px;
+
+    
+   }
+
+/*    #nosso-time img:hover{
        transform: scale(1.5);
        padding-left:  30px;
+   } */
+   .nosso-time-footer {
+       display: flex;
+       justify-content: center;
    }
+  
 
-   .Trabalhe-conosco p{
-       padding-right: 100px; 
-       text-align: right;
-       font-style: italic; 
- }
- 
- .Trabalhe-conosco h1{
- 
-     color: white;
-     text-align: right;
-     bottom: 100px;
-     margin: auto;
-     padding-right: 100px;
-     font-style: italic;
-     
+
+   
+
+ #nosso-time {
+     color: #6ddad3;
+    
  }
 
+ #trabalhe-conosco {
+     padding-bottom: 30px;
+ }
 /* estilo FOOTER*/
