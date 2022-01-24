@@ -298,3 +298,18 @@ input{
      padding-bottom: 30px;
  }
 /* estilo FOOTER*/
+
+/* RESPONSIVIDADE */
+
+@media only screen and (max-width: 530px) {
+    .container-secao1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .container-secao1 img{
+      width: 380px;
+    }
+
+}
