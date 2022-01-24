@@ -9,22 +9,21 @@ body{
     color:darkgray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
- 
-img:hover{
-    transform: scale(1.2);
-    padding-left: 10px;
-    padding-top: 10px;
-}
-/* estilo HEADER*/
 
-/* header{
-    background: tomato;
-    height: 50px;
-} */
+/* estilo HEADER*/
 
 /* estilo HEADER*/
 
 /* estilo BARRA DE NAVEGACAO */
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#home img{
+    height: 250px;
+   } 
 
 .navbar {
     display: flex;
@@ -60,42 +59,10 @@ img:hover{
     box-shadow: 0 0 10px white;
 }
 
-/* estilo BARRA DE NAVEGACAO */
-
-/* estilo HOME */
-
-#home {
-    display: flex;
-    flex-direction: column;
-    /* background-color: rgba(0, 0, 0, 0.5); */
-    height: 500px;
-    justify-content: center;
-    align-items: center;
-    color: white;
-
-}
-
-#home::before{
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 50%;
-  background: url('img/f4life.png') no-repeat center center/cover;
-  height: 500px;
-  width: 50%;
-  z-index: -1;
-  opacity: .8;
-}
-
-
-
 .homediv{
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
-    top: 30%;
-    right: 10%;
 }
 
 .homediv p {
@@ -114,7 +81,6 @@ img:hover{
 
 .headings{
     font-family: Georgia;
-
     font-size: 2rem;
     text-align: center;
     margin: 20px 0px;
@@ -146,6 +112,10 @@ img:hover{
     height: 200px;
     margin: 10px;
 }
+.secao1 img:hover{
+    transform: scale(1.2);
+    padding: 10px;
+}
 .secao1 h2{
     color: #19fcf6;
     text-align: center;
@@ -175,6 +145,7 @@ img:hover{
 .kits-personalizadas h3{
     padding-top: 10px;
 }
+
 /* CONTATO */
 #contact{
     display: flex;
@@ -232,18 +203,12 @@ footer{
     display: flex;
     width: 100%;
 }
-
-footer img{
-    width: 70px;
-    height: 70px;
-    margin-left: 20px;
-    margin-top: 5px;
-}
-
 .redes-sociais{
     display: flex;
     background-color: #19fcf6;
-    
+}
+.redes-sociais img{
+    width: 150px;
 }
 .redes-sociais h3{
     padding-left: 10px;
@@ -262,40 +227,37 @@ input{
 }
 
 .Nosso-time{
-
     padding-left: 50px;
     display: flex;
-    
-   }
-   
-   .Nosso-time h3{
+}
+.Nosso-time h3{
     
        padding-right: 500px;
        color: white;
        text-align: center;
        font-style: italic
-   
-   }
+    }
    
    .Nosso-time p{
    
        color: white;
        padding-left: 10px;
        font-style: italic
-      
-   
+       
+   }
+
+   #Nosso-time img{
+       width: 100px;
+   }
+   #Nosso-time img:hover{
+       transform: scale(1.5);
+       padding-left:  30px;
    }
 
    .Trabalhe-conosco p{
-   
-   
-    padding-right: 100px; 
-    color: turquoise;
-    text-align: right;
-    font-style: italic;
-  
-    
-   
+       padding-right: 100px; 
+       text-align: right;
+       font-style: italic; 
  }
  
  .Trabalhe-conosco h1{
@@ -308,11 +270,5 @@ input{
      font-style: italic;
      
  }
- 
- .Trabalhe-conosco img{
- 
-     
-     padding-left: 800px;
- 
- }
+
 /* estilo FOOTER*/
